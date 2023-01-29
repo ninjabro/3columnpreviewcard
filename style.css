@@ -26,7 +26,7 @@ body {
 }
 
 .container {
-  width: 920px;
+  max-width: 920px;
   height: 500px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -43,7 +43,7 @@ body {
 }
 .luxury {
   background-color: var(--Verydark);
-  padding: 40px 20px 50px 50px;
+  padding: 2.5rem 70px 3.125rem 3.125rem;
 }
 .sedan,
 .suv,
@@ -56,38 +56,38 @@ body {
 
 .sedan,
 .suv {
-  padding: 40px 60px 50px 50px;
+  padding: 2.5rem 3.75rem 3.125rem 3.125rem;
 }
 img {
-  height: 40px;
-  width: 65px;
+  height: 2.5rem;
+  width: 4.0625rem;
 }
 
 h1 {
   text-transform: uppercase;
   font-family: var(--big-shoulder);
-  font-size: 45px;
+  font-size: 2.8125rem;
 }
 h1,
 p {
   color: var(--Very-light-gray);
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 P {
   font-family: var(--lexa);
-  line-height: 25px;
-  font-size: 15px;
+  line-height: 1.5625rem;
+  font-size: 0.9375rem;
   font-weight: 400;
 }
 
 .btn {
-  margin-top: 60px;
-  height: 40px;
-  width: 150px;
+  margin-top: 3.75rem;
+  height: 2.5rem;
+  width: 9.375rem;
   background-color: var(--Very-light-gray);
   border: none;
   border-radius: 30px;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 400;
 }
 .btn__sedan {
@@ -103,8 +103,8 @@ P {
   cursor: pointer;
   color: var(--Very-light-gray);
   background-color: transparent;
-  border: 3px solid var(--Very-light-gray);
-  font-size: 15px;
+  border: 2px solid var(--Very-light-gray);
+  font-size: 0.9375rem;
 }
 
 .attribution {
@@ -119,25 +119,24 @@ a {
 }
 
 @media (max-width: 600px) {
-  body {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-  }
   .container {
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    max-height: 1200px;
+    max-width: 350px;
+    margin-top: 20px;
+    margin-left: 20px;
   }
+
   .sedan {
-    grid-row: 1/1;
-    grid-column: 2/3;
+    grid-row: 1/2;
+    grid-column: 1/4;
   }
   .suv {
     grid-row: 2/3;
-    grid-column: 2/3;
+    grid-column: 1/4;
   }
   .luxury {
-    grid-row: 3/3;
-    grid-column: 2/3;
+    grid-row: 3/4;
+    grid-column: 1/4;
   }
 } ;
