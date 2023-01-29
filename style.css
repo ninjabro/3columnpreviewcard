@@ -120,14 +120,16 @@ a {
 
 @media (max-width: 600px) {
   body {
-    height: 1500px;
+    height: 1700px;
   }
   .container {
-    /* grid-template-columns: 1fr; */
     grid-template-columns: 1fr;
-    height: 1200px;
+    height: 1600px;
     max-width: 350px;
     margin-top: 20px;
     margin-left: 20px;
+  }
+  .attribution {
+    font-size: 0.75rem;
   }
 } ;
