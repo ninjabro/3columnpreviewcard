@@ -42,7 +42,7 @@ body {
 }
 .luxury {
   background-color: var(--Verydark);
-  padding: 50px 20px 50px 50px;
+  padding: 40px 20px 50px 50px;
 }
 .sedan,
 .suv,
@@ -55,7 +55,7 @@ body {
 
 .sedan,
 .suv {
-  padding: 50px 60px 50px 50px;
+  padding: 40px 60px 50px 50px;
 }
 img {
   height: 40px;
@@ -70,7 +70,7 @@ h1 {
 h1,
 p {
   color: var(--Very-light-gray);
-  margin-top: 20px;
+  margin-top: 40px;
 }
 P {
   font-family: var(--lexa);
@@ -81,7 +81,7 @@ P {
 
 .btn {
   margin-top: 60px;
-  height: 50px;
+  height: 40px;
   width: 150px;
   background-color: var(--Very-light-gray);
   border: none;
